@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "fr-CA": {
+          "summary": "Pose des questions à ChatGPT",
+          "examplePhrases": [
+            "Alexa, demande à Assistant GPT qui est Einstein",
+            "Alexa, ouvre Assistant GPT",
+            "Alexa, demande à Assistant GPT de m'expliquer l'intelligence artificielle"
+          ],
+          "name": "Assistant GPT",
+          "description": "Cette skill permet de poser des questions à ChatGPT directement via Alexa."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Dites : Alexa, ouvre Assistant GPT",
+      "category": "KNOWLEDGE_AND_TRIVIA"
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:REGION:ID:function:NomDeLaFonction"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
